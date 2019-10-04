@@ -111,19 +111,7 @@ class Calculator extends Component {
                           <select className="form-control" name="loan_term"
           value={this.state.loan_term}
           onChange={this.handleChange}>
-                        {/* <option value="3">3 Months</option>
-                        <option value="6">6 Months</option>
-                        <option value="9">9 Months</option>
-                        <option value="12">12 Months</option>
-                        <option value="15">15 Months</option>
-                        <option value="18">18 Months</option>
-                        <option value="21">21 Months</option>
-                        <option value="24">24 Months</option>
-                        <option value="27">27 Months</option>
-                        <option value="30">30 Months</option>
-                        <option value="33">33 Months</option>
-                        <option value="36">36 Months</option>
-                        <option value="39">39 Months</option> */}
+                        
                         {this.createTerm()}
                         </select>
                           </div>
