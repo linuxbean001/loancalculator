@@ -1,5 +1,6 @@
 body {
   padding-top: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .price-box {
@@ -76,17 +77,15 @@ body {
 }
 
 h4.great {
-  background: #00ac98;
-  margin: 0 0 25px 0px;
-  padding: 7px 15px;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 5px;
-  display: inline-block;
-  -moz-box-shadow:    2px 4px 5px 0 #ccc;
-    -webkit-box-shadow: 2px 4px 5px 0 #ccc;
-    box-shadow:         2px 4px 5px 0 #ccc;
+  background: #FFDE17;
+    margin: 0 0 25px 0px;
+    padding: 7px 15px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
 }
 
 .total {
@@ -164,7 +163,7 @@ h4.great {
 
 .price-form label {
   font-weight: 200;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 img.payment {
@@ -193,13 +192,57 @@ hr.style {
 .col-md-12.payDiv {
   padding: 28px 40px;
   border: 1px solid #ddd;
-  background: #eee;
+  background: #FFDE17;
+  margin-bottom: 20px
 }
 .rangeslider-horizontal .rangeslider__fill {
-  background-color: #407eb3 !important;
+  background-color: #37556f  !important;
 }
-.rangeslider-horizontal {
-  height: 20px !important;
+.rangeslider-horizontal .rangeslider__handle:after{width: 0px !important;height: 0px !important;}
+.form-control {    font-size: 16px;height: 40px;}
+.rangeslider-horizontal .rangeslider__handle {
+  width: 20px !important;
+   border-radius: 0px !important; }
+   .rangeslider-horizontal {
+    height: 3px !important;
+   
 }
-.form-control {
-  height: 55px;}
+.input-icons i { 
+  position: absolute; 
+} 
+
+.input-icons { 
+  width: 100%; 
+  margin-bottom: 10px; 
+} 
+
+.icon { 
+  padding: 10px; 
+  min-width: 40px; 
+} 
+
+.input-field { 
+  width: 100%; 
+  padding: 10px; 
+  text-align: center; 
+} 
+span.text-data {
+  font-weight: 600;
+  font-size: 23px;
+  padding: 0px 10px;
+  display: inline-block;
+  line-height: 44px;
+  border: 0;
+  width: 100%;
+  background: #ebebe4;
+  margin-bottom: 10px;
+}
+button.btn.button.btn-black.btn-lg {
+  color: #fff;
+  background: #000;
+  padding: 18px 69px;
+}
+span.font-24 {
+  font-size: 24px;
+  padding: 5px;
+}
